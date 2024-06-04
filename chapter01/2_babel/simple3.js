@@ -34,5 +34,4 @@ function Container() {
 }
 
 const domContainer = document.querySelector("#react-root");
-console.log("domContainer: ", domContainer);
 ReactDOM.render(React.createElement(Container), domContainer);
