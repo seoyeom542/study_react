@@ -12,9 +12,9 @@ function Container() {
       marginTop: 20
     }
   }, /*#__PURE__*/React.createElement("span", null, "\uD604\uC7AC \uCE74\uC6B4\uD2B8: "), /*#__PURE__*/React.createElement("spam", null, count), /*#__PURE__*/React.createElement("button", {
-    onclick: () => setCount(count + 1)
+    onClick: () => setCount(count + 1)
   }, "\uC99D\uAC00"), /*#__PURE__*/React.createElement("button", {
-    onclick: () => setCount(count - 1)
+    onClick: () => setCount(count - 1)
   }, "\uAC10\uC18C")));
 }
 const domContainer = document.querySelector("#react-root");

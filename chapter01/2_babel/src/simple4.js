@@ -17,8 +17,8 @@ function Container() {
       <div sttle={{ marginTop: 20 }}>
         <span>현재 카운트: </span>
         <spam>{count}</spam>
-        <button onclick={() => setCount(count + 1)}>증가</button>
-        <button onclick={() => setCount(count - 1)}>감소</button>
+        <button onClick={() => setCount(count + 1)}>증가</button>
+        <button onClick={() => setCount(count - 1)}>감소</button>
       </div>
     </div>
   );
