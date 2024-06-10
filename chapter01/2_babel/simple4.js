@@ -11,7 +11,7 @@ function Container() {
     sttle: {
       marginTop: 20
     }
-  }, /*#__PURE__*/React.createElement("span", null, "\uD604\uC7AC \uCE74\uC6B4\uD2B8: "), /*#__PURE__*/React.createElement("spam", null, count), /*#__PURE__*/React.createElement("button", {
+  }, /*#__PURE__*/React.createElement("span", null, "\uD604\uC7AC \uCE74\uC6B4\uD2B8: "), /*#__PURE__*/React.createElement("span", null, count), /*#__PURE__*/React.createElement("button", {
     onClick: () => setCount(count + 1)
   }, "\uC99D\uAC00"), /*#__PURE__*/React.createElement("button", {
     onClick: () => setCount(count - 1)
