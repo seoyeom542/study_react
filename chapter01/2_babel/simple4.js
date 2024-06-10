@@ -10,26 +10,17 @@ function LikeButton() {
 
 function Container() {
   const [count, setCount] = React.useState(0);
-  return React.createElement(
-    "div",
-    null,
-    React.createElement(LikeButton),
-    React.createElement(
-      "div",
-      { style: { marginTop: 20 } },
-      React.createElement("span", null, "현재 카운트: "),
-      React.createElement("span", null, count),
-      React.createElement(
-        "button",
-        { onClick: () => setCount(count + 1) },
-        "증가"
-      ),
-      React.createElement(
-        "button",
-        { onClick: () => setCount(count - 1) },
-        "감소"
-      )
-    )
+
+  return (
+    <div>
+      <LikeButton />
+      <div sttle={{ marginTop: 20 }}>
+        <span>현재 카운트: </span>
+        <spam>{count}</spam>
+        <button onclick={() => setCount(count + 1)}>증가</button>
+        <button onclick={() => setCount(count - 1)}>감소</button>
+      </div>
+    </div>
   );
 }
 
