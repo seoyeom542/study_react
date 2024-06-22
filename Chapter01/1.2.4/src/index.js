@@ -15,4 +15,7 @@ function Container() {
 }
 
 const domContainer = document.querySelector("#react-root");
-ReactDOM.render(React.createElement(Container), domContainer);
+const root = ReactDOM.createRoot(domContainer);
+root.render(React.createElement(Container));
+
+// ReactDOM.createRoot(React.createElement(Container), domContainer);
