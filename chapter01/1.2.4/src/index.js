@@ -1,6 +1,8 @@
 import React from "react";
-import ReactDOM from "react-dom";
+import ReactDOM from "react-dom/client";
 import Button from "./Button.js";
+
+console.log("init");
 
 function Container() {
   return React.createElement(
@@ -11,3 +13,6 @@ function Container() {
     React.createElement(Button, { label: "싫어요" })
   );
 }
+
+const domContainer = document.querySelector("#react-root");
+ReactDOM.render(React.createElement(Container), domContainer);

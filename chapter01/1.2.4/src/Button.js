@@ -1,5 +1,5 @@
 import React from "react";
 
-export default function GamepadButton(props) {
+export default function Button(props) {
   return React.createElement("button", null, props.label);
 }
